@@ -1,0 +1,72 @@
+.row.content {height: 1500px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+
+ul.nav.nav-pills.nav-stacked {
+  display: block;
+}
+ul.navbar-nav {
+  margin: auto;
+}
+iframe {
+  width: 100%;
+  height: 60%;
+}
+.home-div{
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: blue;
+}
+.card-group{
+  display: inline-block;
+}
+.card{
+  border: 2px double black;
+  width: 30%;
+  display: inline-block;
+}
+
+img.card-img-top{
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+  
+}
+
+a.nav-link {
+  color: #007bff;
+  font-size: large;
+  border: 2px solid deepskyblue;
+  margin-left: 20px;
+}
+a.nav-link:hover{
+  background-color: cyan;
+}
+footer nav{
+  text-align: center;
+  font-size: large;
+}
+
+details > p {
+  width: min-content;
+}

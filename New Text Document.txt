@@ -1,0 +1,7 @@
+media
+	image
+		public   private
+			photo(for each)
+
+index.html
+photo with private and public
